@@ -33,7 +33,7 @@ public enum Planet
 	// metoda ce returneaza coeficientul de greutate, in cazul in care cineva ar avea nevoie
 	public double getWeightRatio() { return this.weightRatio; }
 	
-	// se suprascrie metoda toString pt. a afisa mai frumos numele valorilor enum-ului
+	// se suprascrie metoda toString() pt. a afisa mai frumos numele valorilor enum-ului
 	@Override
 	public String toString()
 	{ return name().substring(0, 1).toUpperCase() + name().substring(1).toLowerCase(); }
